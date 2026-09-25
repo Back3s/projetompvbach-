@@ -263,7 +263,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 .lideranca__item strong { font-size: 1.05rem; color: var(--roxo-900); }
 .lideranca__reg { font-size: .85rem; color: var(--texto-suave); }
 .mec-note { display: flex; align-items: center; gap: 10px; margin-top: 24px; color: var(--roxo); }
-@media (min-width: 640px) { .lideranca { grid-template-columns: repeat(3, 1fr); } }
+@media (min-width: 640px) { .lideranca { grid-template-columns: repeat(2, 1fr); } }
 @media (min-width: 960px) {
   .sobre__grid { grid-template-columns: .95fr 1.05fr; gap: 72px; align-items: center; }
 }
@@ -374,7 +374,7 @@ ul { margin: 0; padding: 0; list-style: none; }
 /* ---------- Professores ---------- */
 .prof__grid { display: grid; gap: 20px; }
 @media (min-width: 560px) { .prof__grid { grid-template-columns: 1fr 1fr; } }
-@media (min-width: 1000px) { .prof__grid { grid-template-columns: repeat(4, 1fr); } }
+@media (min-width: 1000px) { .prof__grid { grid-template-columns: repeat(3, 1fr); } }
 .prof {
   border-radius: var(--radius-lg); overflow: hidden; background: var(--roxo-800);
   border: 1px solid rgba(255, 255, 255, .1); transition: transform .25s ease, border-color .25s ease;
