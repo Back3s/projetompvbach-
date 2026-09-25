@@ -46,4 +46,4 @@ scripts/
 | `[ENDEREÇO]`, `[DATAS]` | FAQ e rodapé |
 | `[CONFIRMAR]` | Preços encontrados no Instagram (ASB 3x R$184 / 6x R$160, TSB a partir de R$600) — apague a etiqueta após confirmar |
 | `[REVISAR]` | Depoimentos de Lara, Kevym e Camili (texto de exemplo) |
-| Fotos "foto em breve" | Evandro Nolasco, Ronald de Oliveira — salve em `source-images/prof-*.jpg` |
+| Fotos "foto em breve" | Evandro Nolasco — salve em `source-images/prof-*.jpg` |
