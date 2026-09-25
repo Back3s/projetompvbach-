@@ -234,14 +234,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   .hero__badge strong { color: var(--magenta-600); font-style: italic; }
 }
 
-/* ---------- Selos ---------- */
-.selos { background: var(--roxo); color: var(--branco); }
-.selos__list { display: grid; grid-template-columns: 1fr 1fr; gap: 14px 18px; padding-top: 22px; padding-bottom: 22px; }
-.selos__list li { display: flex; align-items: center; gap: 10px; font-size: .9rem; line-height: 1.3; }
-.selos__list .icon { width: 30px; height: 30px; color: var(--ouro); }
-.selos__list strong { display: block; font-weight: 800; }
-@media (min-width: 860px) { .selos__list { grid-template-columns: repeat(4, 1fr); } .selos__list li { justify-content: center; } }
-
 /* ---------- Seções ---------- */
 .section { padding: 76px 0; }
 @media (min-width: 960px) { .section { padding: 104px 0; } }
