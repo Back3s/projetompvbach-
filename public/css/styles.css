@@ -195,7 +195,6 @@ ul { margin: 0; padding: 0; list-style: none; }
 .hero__media { position: absolute; inset: 0; z-index: -1; margin: 0; }
 .hero__media img { width: 100%; height: 100%; object-fit: cover; object-position: 38% 20%; }
 .hero__media::after { content: ""; position: absolute; inset: 0; background: rgba(42, 15, 61, .7); }
-.hero__badge { display: none; }
 .hero__content { max-width: 620px; }
 .hero__lead { font-size: 1.08rem; color: rgba(255, 255, 255, .9); max-width: 34em; }
 .hero__lead strong { color: var(--branco); }
@@ -226,12 +225,6 @@ ul { margin: 0; padding: 0; list-style: none; }
   }
   .hero__media img { border-radius: 28px; aspect-ratio: 4 / 5; height: auto; object-position: 40% 30%; }
   .hero__media::after { display: none; }
-  .hero__badge {
-    display: block; position: absolute; left: -28px; bottom: 36px;
-    background: var(--branco); color: var(--roxo-900); padding: 12px 18px; border-radius: 16px;
-    font-size: .95rem; box-shadow: var(--shadow);
-  }
-  .hero__badge strong { color: var(--magenta-600); font-style: italic; }
 }
 
 /* ---------- Seções ---------- */
