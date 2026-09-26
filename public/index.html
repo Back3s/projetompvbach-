@@ -302,17 +302,11 @@
         <div class="galeria" data-galeria>
           <ul class="galeria__track" data-galeria-track>
             <li class="galeria__item">
-              <button type="button" class="galeria__btn" data-lightbox="0" aria-label="Ampliar foto: Aula prática de instrumentação odontológica">
-                <picture>
-                  <source type="image/webp" sizes="(min-width: 960px) 360px, 80vw"
-                    srcset="images/aula-pratica-maos-480.webp 480w, images/aula-pratica-maos.webp 720w">
-                  <img src="images/aula-pratica-maos-480.jpg" sizes="(min-width: 960px) 360px, 80vw"
-                    srcset="images/aula-pratica-maos-480.jpg 480w, images/aula-pratica-maos.jpg 720w"
-                    width="720" height="1280" loading="lazy" decoding="async"
-                    data-full="images/aula-pratica-maos.webp"
-                    alt="Aula prática de instrumentação odontológica">
-                </picture>
-              </button>
+              <div class="galeria__btn galeria__video">
+                <video src="videos/aula-pratica.mp4" poster="images/aula-pratica-video-poster.jpg"
+                  width="388" height="692" autoplay muted loop playsinline preload="metadata"
+                  aria-label="Vídeo de aula prática no Instituto Dr. Bach"></video>
+              </div>
             </li>
             <li class="galeria__item">
               <button type="button" class="galeria__btn" data-lightbox="1" aria-label="Ampliar foto: Alunos em aula prática junto à cadeira odontológica">
